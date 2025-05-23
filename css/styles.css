@@ -76,7 +76,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .nav-link {
@@ -133,7 +132,6 @@ ol {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
-  padding-top: 188px;
   max-width: 496px;
 }
 
@@ -211,9 +209,7 @@ ol {
 }
 .advantages-list {
   display: flex;
-  align-items: start;
   gap: 24px;
-  justify-content: flex-start;
 }
 .advantages-items {
   width: calc((100% - 72px) / 4);
@@ -229,28 +225,17 @@ ol {
 .team-list {
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 
 .team-section .team-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
-  /* padding-bottom: 32px; */
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
 }
 
 .team-item-description {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  /* gap: 8px; */
   padding: 32px 0;
 }
 .team-item .content {
@@ -265,25 +250,28 @@ ol {
   column-gap: 24px;
 }
 .portfolio-item {
-  width: calc((100% - 24 * 2) / 3);
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-item-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  /* gap: 8px; */
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
 }
 
+.portfolio-item-container .subtitle {
+  text-align: left;
+}
 .footer {
   padding: 100px 0;
 }
-.footer p {
+.content-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
   max-width: 264px;
 }
 
